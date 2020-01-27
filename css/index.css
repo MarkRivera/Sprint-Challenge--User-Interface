@@ -3,6 +3,9 @@
    License: none (public domain)
 */
 
+ * {
+     box-sizing: border-box;
+ }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -150,6 +153,7 @@ footer nav a {
 body {
     background-color: #0e0e0e;
     width: 1000px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -158,13 +162,13 @@ body {
     flex-flow: column;
     justify-content: center;
     background-color: #fff;
-    padding: 32px 72px;
+    padding: 32px 72px 0;
     width: 1000px;
 }
 
 .nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
 }
 
@@ -182,4 +186,44 @@ body {
 
 .text-container {
     font-weight: 600;
+}
+
+.middle-content .boxes div:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes div:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes div:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes div:nth-child(4){
+    background-color: coral;
+}
+
+.middle-content .boxes div:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes div:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes div:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes div:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes div:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes div:nth-child(10) {
+    background-color: dodgerblue;
 }
