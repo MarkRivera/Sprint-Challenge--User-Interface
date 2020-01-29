@@ -3,6 +3,9 @@
    License: none (public domain)
 */
 
+ * {
+     box-sizing: border-box;
+ }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -143,4 +146,147 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My code */
+
+body {
+    background-color: #0e0e0e;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: #fff;
+    padding: 32px 100px 0;
+    width: 1000px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.jumbo-image {
+    width: 100%;
+    margin: 16px 0;
+}
+
+.text-container {
+    font-weight: 600;
+}
+
+.middle-content .boxes div:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes div:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes div:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes div:nth-child(4){
+    background-color: coral;
+}
+
+.middle-content .boxes div:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes div:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes div:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes div:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes div:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes div:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+/*   ABOUT ME CSS   */
+
+.about-company {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 12px 36px;
+    border-bottom: dashed 1px #000;
+}
+
+.about-company h2 {
+    font-weight: bold;
+}
+
+.about-company p {
+    font-weight: 500;
+}
+
+.about-us {
+    margin: 32px 0; 
+}
+
+.first-row {
+    display: flex;
+}
+
+.about-us .first-row {
+    margin: 0 0 64px;
+}
+
+.second-row {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    border-bottom: dashed 1px #000;
+    margin: 0 16px;
+}
+
+.card h2 {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.card button {
+    align-self: flex-start;
+    margin: 16px 0;
+    padding: 8px 16px;
+    width: 120px;
+    background-color: #fff;
+    outline: none;
+    border: black 2px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.final-word {
+    width: 90%;
+    margin: 0 auto 48px;
 }
